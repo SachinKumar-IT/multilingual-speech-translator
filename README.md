@@ -35,3 +35,13 @@ The translated text will be spoken back in the target language
 **Voice commands (speak them in your source language)**
 exit → stops the program
 change language → resets source/target languages
+
+**Example**
+🎤 Multi‑language Speech-to-Speech Translator
+Select YOUR language (Hindi)
+Select TARGET language (English)
+
+Listening...
+You said (Hindi): नमस्ते दुनिया
+Translated (English): Hello world
+[audio plays "Hello world"]
