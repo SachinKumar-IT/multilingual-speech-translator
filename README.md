@@ -20,9 +20,18 @@ Voice commands like **exit** and **change language** work in **any language** �
    cd speech-translator
    
 2. **Install dependencies**
-```bash
-pip install speechrecognition googletrans==4.0.0-rc1 gtts playsound
+ pip install speechrecognition googletrans==4.0.0-rc1 gtts playsound
 
 3. **Run the script**
-bash
 python translator.py
+
+4.**Follow the prompts**
+
+Select your source language (the language you will speak)
+Select your target language (the language you want to translate into)
+Speak into the microphone
+The translated text will be spoken back in the target language
+
+**Voice commands (speak them in your source language)**
+exit → stops the program
+change language → resets source/target languages
