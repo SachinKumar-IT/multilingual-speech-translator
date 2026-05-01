@@ -18,6 +18,11 @@ Voice commands like **exit** and **change language** work in **any language** â€
    ```bash
    git clone https://github.com/SachinKumar-IT/multilingual-speech-translator.git
    cd speech-translator
+   
 2. **Install dependencies**
 ```bash
 pip install speechrecognition googletrans==4.0.0-rc1 gtts playsound
+
+3. **Run the script**
+bash
+python translator.py
