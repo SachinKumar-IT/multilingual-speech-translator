@@ -1,4 +1,4 @@
-# 🌍 Multilingual Speech‑to‑Speech Translator
+# Multilingual Speech‑to‑Speech Translator
 
 A Python application that lets you **speak in your native language** and get **translated text + speech** in any target language.  
 Voice commands like **exit** and **change language** work in **any language** – no English required.
@@ -12,9 +12,12 @@ Voice commands like **exit** and **change language** work in **any language** �
 - 🌐 Fully offline except for Google Speech & Translate APIs (internet required)  
 - 🛡️ Error‑handled (microphone checks, temp files, fallback audio players)
 
-## 🚀 How to Use
+##  How to Use
 
 1. **Clone the repository**  
    ```bash
    git clone https://github.com/SachinKumar-IT/multilingual-speech-translator.git
    cd speech-translator
+2. **Install dependencies**
+```bash
+pip install speechrecognition googletrans==4.0.0-rc1 gtts playsound
